@@ -3,10 +3,10 @@ name: Vue 3 CI/CD
 on:
   push:
     branches:
-      - main  # Trigger the workflow when pushing to the main branch
+      - master  # Trigger the workflow when pushing to the master branch
   pull_request:
     branches:
-      - main  # Trigger for PRs targeting the main branch
+      - master  # Trigger for PRs targeting the main branch
 
 jobs:
   build:
