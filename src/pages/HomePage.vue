@@ -1,6 +1,6 @@
 <template>
   <div class="home-container">
-    <h2 class="title">My Journal Entries Testing</h2>
+    <h2 class="title">My Journal Entries Testing again</h2>
     <router-link
       to="/entry/new"
       class="add-entry-button"
